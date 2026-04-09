@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Baytak.API/Baytak.API.csproj" />
+  <Project Path="Baytak.Application/Baytak.Application.csproj" />
+  <Project Path="Baytak.Domain/Baytak.Domain.csproj" />
+  <Project Path="Baytak.Infrastructure/Baytak.Infrastructure.csproj" />
+</Solution>
