@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v10.0": {
       "Baytak.Infrastructure/1.0.0": {
         "dependencies": {
+          "Baytak.Application": "1.0.0",
           "Baytak.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.25",
           "Microsoft.EntityFrameworkCore.Tools": "10.0.5"
@@ -979,6 +980,19 @@
           }
         }
       },
+      "Baytak.Application/1.0.0": {
+        "dependencies": {
+          "Baytak.Domain": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.25",
+          "Microsoft.EntityFrameworkCore": "10.0.5"
+        },
+        "runtime": {
+          "Baytak.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Baytak.Domain/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.25",
@@ -1432,6 +1446,11 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "Baytak.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Baytak.Domain/1.0.0": {
       "type": "project",

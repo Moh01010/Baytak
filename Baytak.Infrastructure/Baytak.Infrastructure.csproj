@@ -1,6 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <ProjectReference Include="..\Baytak.Application\Baytak.Application.csproj" />
     <ProjectReference Include="..\Baytak.Domain\Baytak.Domain.csproj" />
   </ItemGroup>
 

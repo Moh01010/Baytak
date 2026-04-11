@@ -1341,6 +1341,21 @@
           }
         }
       },
+      "Baytak.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Baytak.Domain": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.25",
+          "Microsoft.EntityFrameworkCore": "8.0.25"
+        },
+        "compile": {
+          "bin/placeholder/Baytak.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Baytak.Application.dll": {}
+        }
+      },
       "Baytak.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -3880,6 +3895,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Baytak.Application/1.0.0": {
+      "type": "project",
+      "path": "../Baytak.Application/Baytak.Application.csproj",
+      "msbuildProject": "../Baytak.Application/Baytak.Application.csproj"
+    },
     "Baytak.Domain/1.0.0": {
       "type": "project",
       "path": "../Baytak.Domain/Baytak.Domain.csproj",
@@ -3888,6 +3908,7 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "Baytak.Application >= 1.0.0",
       "Baytak.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.25",
       "Microsoft.EntityFrameworkCore.Tools >= 10.0.5"
@@ -3926,6 +3947,9 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
+            "D:\\Baytak\\Baytak.Application\\Baytak.Application.csproj": {
+              "projectPath": "D:\\Baytak\\Baytak.Application\\Baytak.Application.csproj"
+            },
             "D:\\Baytak\\Baytak.Domain\\Baytak.Domain.csproj": {
               "projectPath": "D:\\Baytak\\Baytak.Domain\\Baytak.Domain.csproj"
             }

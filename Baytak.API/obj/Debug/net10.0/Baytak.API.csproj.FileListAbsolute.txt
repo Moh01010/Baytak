@@ -167,3 +167,5 @@ D:\Baytak\Baytak.API\obj\Debug\net10.0\Baytak.API.pdb
 D:\Baytak\Baytak.API\obj\Debug\net10.0\Baytak.API.genruntimeconfig.cache
 D:\Baytak\Baytak.API\obj\Debug\net10.0\ref\Baytak.API.dll
 D:\Baytak\Baytak.API\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+D:\Baytak\Baytak.API\obj\Debug\net10.0\Baytak.API.sourcelink.json
+D:\Baytak\Baytak.API\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

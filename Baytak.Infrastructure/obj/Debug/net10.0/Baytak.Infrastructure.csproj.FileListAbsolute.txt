@@ -15,3 +15,6 @@ D:\Baytak\Baytak.Infrastructure\obj\Debug\net10.0\refint\Baytak.Infrastructure.d
 D:\Baytak\Baytak.Infrastructure\obj\Debug\net10.0\Baytak.Infrastructure.pdb
 D:\Baytak\Baytak.Infrastructure\obj\Debug\net10.0\Baytak.Infrastructure.genruntimeconfig.cache
 D:\Baytak\Baytak.Infrastructure\obj\Debug\net10.0\ref\Baytak.Infrastructure.dll
+D:\Baytak\Baytak.Infrastructure\obj\Debug\net10.0\Baytak.Infrastructure.sourcelink.json
+D:\Baytak\Baytak.Infrastructure\bin\Debug\net10.0\Baytak.Application.dll
+D:\Baytak\Baytak.Infrastructure\bin\Debug\net10.0\Baytak.Application.pdb
