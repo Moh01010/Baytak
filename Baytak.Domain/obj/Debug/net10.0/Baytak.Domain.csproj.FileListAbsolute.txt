@@ -10,3 +10,4 @@ D:\Baytak\Baytak.Domain\obj\Debug\net10.0\Baytak.Domain.dll
 D:\Baytak\Baytak.Domain\obj\Debug\net10.0\refint\Baytak.Domain.dll
 D:\Baytak\Baytak.Domain\obj\Debug\net10.0\Baytak.Domain.pdb
 D:\Baytak\Baytak.Domain\obj\Debug\net10.0\ref\Baytak.Domain.dll
+D:\Baytak\Baytak.Domain\obj\Debug\net10.0\Baytak.Domain.sourcelink.json

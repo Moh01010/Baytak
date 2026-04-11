@@ -13,3 +13,4 @@ D:\Baytak\Baytak.Application\obj\Debug\net10.0\Baytak.Application.dll
 D:\Baytak\Baytak.Application\obj\Debug\net10.0\refint\Baytak.Application.dll
 D:\Baytak\Baytak.Application\obj\Debug\net10.0\Baytak.Application.pdb
 D:\Baytak\Baytak.Application\obj\Debug\net10.0\ref\Baytak.Application.dll
+D:\Baytak\Baytak.Application\obj\Debug\net10.0\Baytak.Application.sourcelink.json

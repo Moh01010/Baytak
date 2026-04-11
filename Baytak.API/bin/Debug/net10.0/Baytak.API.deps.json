@@ -10,6 +10,7 @@
         "dependencies": {
           "Baytak.Application": "1.0.0",
           "Baytak.Infrastructure": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.25",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "10.0.5",
           "Microsoft.AspNetCore.OpenApi": "10.0.3",
           "Microsoft.EntityFrameworkCore.Design": "10.0.5",
@@ -51,6 +52,17 @@
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.JwtBearer/8.0.25": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "7.7.1"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "assemblyVersion": "8.0.25.0",
+            "fileVersion": "8.0.2526.11225"
           }
         }
       },
@@ -845,6 +857,7 @@
       },
       "Baytak.Infrastructure/1.0.0": {
         "dependencies": {
+          "Baytak.Application": "1.0.0",
           "Baytak.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "10.0.5"
         },
@@ -883,6 +896,13 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.JwtBearer/8.0.25": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nb6jCyxh5eP9bsXkHmGcDxUiVIl5wJSombl3LN2L+sjGEVXzcMKbdRe0fp8LQtuBM2hKXcXFxMAYdnohdYJF8Q==",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/8.0.25",
+      "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.8.0.25.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Identity.EntityFrameworkCore/10.0.5": {
       "type": "package",
