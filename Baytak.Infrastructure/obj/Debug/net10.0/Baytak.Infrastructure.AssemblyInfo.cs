@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Baytak.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2630a423200adba72a431c3059bd17dbba3bb52b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15738b6d3bb64c98a85aaeb48616c83ee6686046")]
 [assembly: System.Reflection.AssemblyProductAttribute("Baytak.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Baytak.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
