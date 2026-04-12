@@ -9,8 +9,8 @@ D:\Baytak\Baytak.API\bin\Debug\net10.0\Baytak.API.pdb
 D:\Baytak\Baytak.API\bin\Debug\net10.0\Azure.Core.dll
 D:\Baytak\Baytak.API\bin\Debug\net10.0\Azure.Identity.dll
 D:\Baytak\Baytak.API\bin\Debug\net10.0\Humanizer.dll
+D:\Baytak\Baytak.API\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\Baytak\Baytak.API\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-D:\Baytak\Baytak.API\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
 D:\Baytak\Baytak.API\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\Baytak\Baytak.API\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
 D:\Baytak\Baytak.API\bin\Debug\net10.0\Microsoft.Build.Framework.dll
@@ -151,6 +151,7 @@ D:\Baytak\Baytak.API\obj\Debug\net10.0\Baytak.API.AssemblyInfo.cs
 D:\Baytak\Baytak.API\obj\Debug\net10.0\Baytak.API.csproj.CoreCompileInputs.cache
 D:\Baytak\Baytak.API\obj\Debug\net10.0\Baytak.API.MvcApplicationPartsAssemblyInfo.cs
 D:\Baytak\Baytak.API\obj\Debug\net10.0\Baytak.API.MvcApplicationPartsAssemblyInfo.cache
+D:\Baytak\Baytak.API\obj\Debug\net10.0\Baytak.API.sourcelink.json
 D:\Baytak\Baytak.API\obj\Debug\net10.0\rjimswa.dswa.cache.json
 D:\Baytak\Baytak.API\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 D:\Baytak\Baytak.API\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
@@ -160,12 +161,10 @@ D:\Baytak\Baytak.API\obj\Debug\net10.0\staticwebassets.build.json.cache
 D:\Baytak\Baytak.API\obj\Debug\net10.0\staticwebassets.development.json
 D:\Baytak\Baytak.API\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 D:\Baytak\Baytak.API\obj\Debug\net10.0\swae.build.ex.cache
+D:\Baytak\Baytak.API\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 D:\Baytak\Baytak.API\obj\Debug\net10.0\Baytak.API.csproj.Up2Date
 D:\Baytak\Baytak.API\obj\Debug\net10.0\Baytak.API.dll
 D:\Baytak\Baytak.API\obj\Debug\net10.0\refint\Baytak.API.dll
 D:\Baytak\Baytak.API\obj\Debug\net10.0\Baytak.API.pdb
 D:\Baytak\Baytak.API\obj\Debug\net10.0\Baytak.API.genruntimeconfig.cache
 D:\Baytak\Baytak.API\obj\Debug\net10.0\ref\Baytak.API.dll
-D:\Baytak\Baytak.API\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
-D:\Baytak\Baytak.API\obj\Debug\net10.0\Baytak.API.sourcelink.json
-D:\Baytak\Baytak.API\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
