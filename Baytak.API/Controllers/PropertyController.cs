@@ -25,7 +25,7 @@ namespace Baytak.API.Controllers
             if (userId == null) return Unauthorized();
 
             await _service.AddAsync(dto,userId);
-            return Ok(new { message = "Property updated successfully" });
+            return Ok(new { message = "Property created successfully" });
         }
 
         [HttpPut("{id}")]

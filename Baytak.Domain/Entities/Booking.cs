@@ -9,7 +9,7 @@ namespace Baytak.Domain.Entities
     public class Booking: BaseEntity
     {
         public string UserId { get; set; }
-        public int PropertyId { get; set; }
+        public Guid PropertyId { get; set; }
 
         public DateTime Date { get; set; }
         public BookingStatus Status { get; set; }

@@ -7,7 +7,7 @@ namespace Baytak.Domain.Entities
 {
     public class Conversation: BaseEntity
     {
-        public int PropertyId { get; set; }
+        public Guid PropertyId { get; set; }
         public string UserId { get; set; }
         public string AgentId { get; set; }
 
