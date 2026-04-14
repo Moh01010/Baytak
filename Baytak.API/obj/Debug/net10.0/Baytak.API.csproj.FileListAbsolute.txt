@@ -168,3 +168,4 @@ D:\Baytak\Baytak.API\obj\Debug\net10.0\refint\Baytak.API.dll
 D:\Baytak\Baytak.API\obj\Debug\net10.0\Baytak.API.pdb
 D:\Baytak\Baytak.API\obj\Debug\net10.0\Baytak.API.genruntimeconfig.cache
 D:\Baytak\Baytak.API\obj\Debug\net10.0\ref\Baytak.API.dll
+D:\Baytak\Baytak.API\bin\Debug\net10.0\Baytak.API.staticwebassets.runtime.json

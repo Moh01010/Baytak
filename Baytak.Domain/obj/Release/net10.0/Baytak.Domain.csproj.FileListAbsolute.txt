@@ -1,0 +1,13 @@
+D:\Baytak\Baytak.Domain\bin\Release\net10.0\Baytak.Domain.deps.json
+D:\Baytak\Baytak.Domain\bin\Release\net10.0\Baytak.Domain.dll
+D:\Baytak\Baytak.Domain\bin\Release\net10.0\Baytak.Domain.pdb
+D:\Baytak\Baytak.Domain\obj\Release\net10.0\Baytak.Domain.csproj.AssemblyReference.cache
+D:\Baytak\Baytak.Domain\obj\Release\net10.0\Baytak.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Baytak\Baytak.Domain\obj\Release\net10.0\Baytak.Domain.AssemblyInfoInputs.cache
+D:\Baytak\Baytak.Domain\obj\Release\net10.0\Baytak.Domain.AssemblyInfo.cs
+D:\Baytak\Baytak.Domain\obj\Release\net10.0\Baytak.Domain.csproj.CoreCompileInputs.cache
+D:\Baytak\Baytak.Domain\obj\Release\net10.0\Baytak.Domain.sourcelink.json
+D:\Baytak\Baytak.Domain\obj\Release\net10.0\Baytak.Domain.dll
+D:\Baytak\Baytak.Domain\obj\Release\net10.0\refint\Baytak.Domain.dll
+D:\Baytak\Baytak.Domain\obj\Release\net10.0\Baytak.Domain.pdb
+D:\Baytak\Baytak.Domain\obj\Release\net10.0\ref\Baytak.Domain.dll

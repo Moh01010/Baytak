@@ -8,7 +8,7 @@ namespace Baytak.Domain.Entities
     public class Favorite: BaseEntity
     {
         public string UserId { get; set; }
-        public int PropertyId { get; set; }
+        public Guid PropertyId { get; set; }
 
         public ApplicationUser User { get; set; }
         public Property Property { get; set; }
