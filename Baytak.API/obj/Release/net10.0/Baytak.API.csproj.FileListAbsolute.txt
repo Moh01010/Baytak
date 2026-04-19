@@ -1,5 +1,6 @@
 D:\Baytak\Baytak.API\bin\Release\net10.0\appsettings.Development.json
 D:\Baytak\Baytak.API\bin\Release\net10.0\appsettings.json
+D:\Baytak\Baytak.API\bin\Release\net10.0\Baytak.API.staticwebassets.runtime.json
 D:\Baytak\Baytak.API\bin\Release\net10.0\Baytak.API.staticwebassets.endpoints.json
 D:\Baytak\Baytak.API\bin\Release\net10.0\Baytak.API.exe
 D:\Baytak\Baytak.API\bin\Release\net10.0\Baytak.API.deps.json
@@ -168,3 +169,4 @@ D:\Baytak\Baytak.API\obj\Release\net10.0\refint\Baytak.API.dll
 D:\Baytak\Baytak.API\obj\Release\net10.0\Baytak.API.pdb
 D:\Baytak\Baytak.API\obj\Release\net10.0\Baytak.API.genruntimeconfig.cache
 D:\Baytak\Baytak.API\obj\Release\net10.0\ref\Baytak.API.dll
+D:\Baytak\Baytak.API\bin\Release\net10.0\dotnet-tools.json

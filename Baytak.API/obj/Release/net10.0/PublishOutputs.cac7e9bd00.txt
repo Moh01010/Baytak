@@ -1,6 +1,7 @@
 D:\Baytak\Baytak.API\obj\Release\net10.0\PubTmp\Out\Baytak.API.exe
 D:\Baytak\Baytak.API\obj\Release\net10.0\PubTmp\Out\appsettings.Development.json
 D:\Baytak\Baytak.API\obj\Release\net10.0\PubTmp\Out\appsettings.json
+D:\Baytak\Baytak.API\obj\Release\net10.0\PubTmp\Out\dotnet-tools.json
 D:\Baytak\Baytak.API\obj\Release\net10.0\PubTmp\Out\Baytak.API.dll
 D:\Baytak\Baytak.API\obj\Release\net10.0\PubTmp\Out\Baytak.API.runtimeconfig.json
 D:\Baytak\Baytak.API\obj\Release\net10.0\PubTmp\Out\Baytak.API.pdb

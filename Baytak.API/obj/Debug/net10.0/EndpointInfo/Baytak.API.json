@@ -150,6 +150,62 @@
         }
       }
     },
+    "/api/Favorite/{PropertyId}": {
+      "post": {
+        "tags": [
+          "Favorite"
+        ],
+        "parameters": [
+          {
+            "name": "PropertyId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Favorite"
+        ],
+        "parameters": [
+          {
+            "name": "PropertyId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Favorite": {
+      "get": {
+        "tags": [
+          "Favorite"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Property": {
       "post": {
         "tags": [
@@ -356,6 +412,58 @@
           }
         }
       }
+    },
+    "/api/Search": {
+      "get": {
+        "tags": [
+          "Search"
+        ],
+        "parameters": [
+          {
+            "name": "City",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "MinPrice",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          },
+          {
+            "name": "MaxPrice",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          },
+          {
+            "name": "Bedrooms",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "SearchTerm",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -389,10 +497,6 @@
             "type": "number",
             "format": "double"
           },
-          "location": {
-            "type": "string",
-            "nullable": true
-          },
           "bedrooms": {
             "type": "integer",
             "format": "int32"
@@ -400,6 +504,13 @@
           "bathrooms": {
             "type": "integer",
             "format": "int32"
+          },
+          "area": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "propertyType": {
+            "$ref": "#/components/schemas/PropertyType"
           },
           "city": {
             "type": "string",
@@ -430,6 +541,14 @@
           }
         },
         "additionalProperties": false
+      },
+      "PropertyType": {
+        "enum": [
+          0,
+          1
+        ],
+        "type": "integer",
+        "format": "int32"
       },
       "RegisterDto": {
         "required": [
@@ -501,6 +620,13 @@
           "bathrooms": {
             "type": "integer",
             "format": "int32"
+          },
+          "area": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "propertyType": {
+            "$ref": "#/components/schemas/PropertyType"
           },
           "city": {
             "type": "string",

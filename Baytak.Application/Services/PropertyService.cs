@@ -22,10 +22,12 @@ namespace Baytak.Application.Services
                 Title = dto.Title,
                 Description = dto.Description,
                 Price = dto.Price,
+                Area=dto.Area,
                 Bedrooms = dto.Bedrooms,
                 Bathrooms = dto.Bathrooms,
                 City = dto.City,
                 Address = dto.Address,
+                Type=dto.PropertyType,
                 AgentId = userId
             };
             await _repo.AddAsync(property);
@@ -55,20 +57,25 @@ namespace Baytak.Application.Services
             property.Bathrooms = dto.Bathrooms;
             property.City = dto.City;
             property.Address = dto.Address;
+            property.Type = dto.PropertyType;
+            property.Area= dto.Area;
 
             await _repo.UpdateAsync(property);
         }
-        public async Task<IEnumerable<PropertyDto>> GetAllAsync()
+        public async Task<IEnumerable<PropertyAllDto>> GetAllAsync()
         {
             var properties=await _repo.GetAllAsync();
 
-            return properties.Select(p => new PropertyDto
+            return properties.Select(p => new PropertyAllDto
             {
                 Id = p.Id,
                 Title = p.Title,
                 Price = p.Price,
                 Bedrooms = p.Bedrooms,
-                City = p.City
+                City = p.City,
+                MainImageUrl = p.Images?
+                        .OrderBy(i => i.Id)
+                        .FirstOrDefault()?.ImageUrl
             }).ToList();
         }
 
@@ -83,9 +90,19 @@ namespace Baytak.Application.Services
             {
                 Id = p.Id,
                 Title = p.Title,
+                Description = p.Description,
                 Price = p.Price,
+                Type=p.Type,
                 Bedrooms = p.Bedrooms,
-                City = p.City
+                City = p.City,
+                Address = p.Address,
+                Status= p.Status,
+                Area= p.Area,
+                Bathrooms = p.Bathrooms,
+                ImageUrls = p.Images?
+                     .Where(i => !i.IsDeleted) 
+                     .Select(i => i.ImageUrl)
+                     .ToList() ?? new List<string>()
             };
         }
 

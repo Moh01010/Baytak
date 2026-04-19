@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Baytak.Domain.Enums;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -13,6 +14,9 @@ namespace Baytak.Application.DTOs.Property
 
         public int Bedrooms { get; set; }
         public int Bathrooms { get; set; }
+
+        public int Area { get; set; }
+        public PropertyType PropertyType { get; set; }
 
         public string City { get; set; }
         public string Address { get; set; }
