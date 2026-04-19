@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Baytak.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e645fbdb6d81069a4303384b34f356ff86773c7f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10402d92fce6a85164bdbd832b993d617f7f924b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Baytak.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Baytak.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

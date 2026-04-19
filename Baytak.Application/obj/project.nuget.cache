@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+yztoHBFBRU=",
+  "dgSpecHash": "f7lN7GfG0q4=",
   "success": true,
   "projectFilePath": "D:\\Baytak\\Baytak.Application\\Baytak.Application.csproj",
   "expectedPackageFiles": [
@@ -29,5 +29,15 @@
     "C:\\Users\\Astore\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\Astore\\.nuget\\packages\\microsoft.net.http.headers\\2.3.8\\microsoft.net.http.headers.2.3.8.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "projectPath": "D:\\Baytak\\Baytak.Application\\Baytak.Application.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Baytak\\Baytak.Application\\Baytak.Application.csproj",
+      "targetGraphs": []
+    }
+  ]
 }

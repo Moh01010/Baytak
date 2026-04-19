@@ -40,6 +40,7 @@ namespace Baytak.Infrastructure.Repositories
         {
             return await _context.Properties
                 .Where(p => !p.IsDeleted)
+                .Include(p => p.Images) 
                 .ToListAsync();
         }
 

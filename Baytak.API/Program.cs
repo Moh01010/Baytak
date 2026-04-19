@@ -43,7 +43,10 @@ builder.Services.AddScoped<IPropertyService, PropertyService>();
 builder.Services.AddScoped<IImageService, ImageService>();
 builder.Services.AddScoped<IPropertyImageRepository, PropertyImageRepository>();
 builder.Services.AddScoped<IPropertyImageService, PropertyImageService>();
-
+builder.Services.AddScoped<ISearchService, SearchService>();
+builder.Services.AddScoped<ISearchRepository, SearchRepository>();
+builder.Services.AddScoped<IFavoriteRepository, FavoriteRepository>();
+builder.Services.AddScoped<IFavoriteService, FavoriteService > ();
 ///////
 
 builder.Services.AddSwaggerGen(c =>
