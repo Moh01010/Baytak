@@ -12,7 +12,7 @@ namespace Baytak.Application.DTOs.Property
         public decimal Price { get; set; }
 
         public string City { get; set; }
-        public int Bedrooms { get; set; }
+        public int Rooms { get; set; }
         public string MainImageUrl { get; set; }
     }
 }

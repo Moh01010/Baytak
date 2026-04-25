@@ -33,7 +33,7 @@ namespace Baytak.Application.Services
                 Title = p.Title,
                 Price = p.Price,
                 City = p.City,
-                Bedrooms = p.Bedrooms,
+                Rooms = p.Rooms,
                 MainImageUrl = p.Images
                         .Where(i => !i.IsDeleted)
                         .OrderBy(i => i.Id)
