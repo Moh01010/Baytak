@@ -16,7 +16,7 @@ namespace Baytak.Infrastructure.Repositories
             _context = context;
         }
 
-        public IQueryable<Property> GetSearchQuery(string? City, decimal? minPrice, decimal? maxPrice, int? bedrooms, string? searchTerm)
+        public IQueryable<Property> GetSearchQuery(string? City, decimal? minPrice, decimal? maxPrice, int? Rooms, string? searchTerm)
         {
             var query = _context.Properties
                 .Where(p => !p.IsDeleted)
@@ -37,9 +37,9 @@ namespace Baytak.Infrastructure.Repositories
                 query = query.Where(p => p.Price <= maxPrice.Value);
             }
 
-            if(bedrooms.HasValue)
+            if(Rooms.HasValue)
             {
-                query=query.Where(p=>p.Bedrooms==bedrooms.Value);
+                query=query.Where(p=>p.Rooms == Rooms.Value);
             }
             if(!string.IsNullOrEmpty(searchTerm) )
             {

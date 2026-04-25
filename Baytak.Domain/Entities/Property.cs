@@ -16,15 +16,11 @@ namespace Baytak.Domain.Entities
         public PropertyType Type { get; set; }
         public PropertyStatus Status {  get; set; }
 
-        public int Bedrooms {  get; set; }
-        public int Bathrooms {  get; set; }
+        public int Rooms {  get; set; }
         public double Area {  get; set; }
 
         public string City {  get; set; }
         public string Address {  get; set; }
-
-        public double Latitude { get; set; }
-        public double Longitude { get; set; }
 
         public string AgentId { get; set; }
 

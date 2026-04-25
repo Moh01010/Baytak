@@ -80,6 +80,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Baytak.API.Controllers.ConversationsController",
+    "Method": "Start",
+    "RelativePath": "api/Conversations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agentId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Baytak.API.Controllers.ConversationsController",
+    "Method": "GetMyChats",
+    "RelativePath": "api/Conversations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Baytak.API.Controllers.FavoriteController",
     "Method": "Get",
     "RelativePath": "api/Favorite",
@@ -115,6 +141,54 @@
     "Parameters": [
       {
         "Name": "PropertyId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Baytak.API.Controllers.MessagesController",
+    "Method": "Send",
+    "RelativePath": "api/Messages",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Baytak.Application.DTOs.Message.SendMessageDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Baytak.API.Controllers.MessagesController",
+    "Method": "Get",
+    "RelativePath": "api/Messages/{conversationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "conversationId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Baytak.API.Controllers.MessagesController",
+    "Method": "MarkSeen",
+    "RelativePath": "api/Messages/{conversationId}/seen",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "conversationId",
         "Type": "System.Guid",
         "IsRequired": true
       }

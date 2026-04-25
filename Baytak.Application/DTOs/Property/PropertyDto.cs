@@ -8,6 +8,7 @@ namespace Baytak.Application.DTOs.Property
     public class PropertyDto
     {
         public Guid Id { get; set; }
+        public string AgentId {  get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
 
@@ -16,8 +17,7 @@ namespace Baytak.Application.DTOs.Property
         public PropertyType Type { get; set; }
         public PropertyStatus Status { get; set; }
 
-        public int Bedrooms { get; set; }
-        public int Bathrooms { get; set; }
+        public int Rooms { get; set; }
         public double Area { get; set; }
 
         public string City { get; set; }

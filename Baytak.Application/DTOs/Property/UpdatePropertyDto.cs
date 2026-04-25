@@ -12,8 +12,7 @@ namespace Baytak.Application.DTOs.Property
 
         public decimal Price { get; set; }
 
-        public int Bedrooms { get; set; }
-        public int Bathrooms { get; set; }
+        public int Rooms { get; set; }
 
         public int Area { get; set; }
         public PropertyType PropertyType { get; set; }

@@ -147,9 +147,6 @@ namespace Baytak.Infrastructure.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<Guid>("PropertyId")
-                        .HasColumnType("uniqueidentifier");
-
                     b.Property<string>("UserId")
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
@@ -157,8 +154,6 @@ namespace Baytak.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("AgentId");
-
-                    b.HasIndex("PropertyId");
 
                     b.HasIndex("UserId");
 
@@ -288,12 +283,6 @@ namespace Baytak.Infrastructure.Migrations
                     b.Property<double>("Area")
                         .HasColumnType("float");
 
-                    b.Property<int>("Bathrooms")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Bedrooms")
-                        .HasColumnType("int");
-
                     b.Property<string>("City")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -308,14 +297,11 @@ namespace Baytak.Infrastructure.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<double>("Latitude")
-                        .HasColumnType("float");
-
-                    b.Property<double>("Longitude")
-                        .HasColumnType("float");
-
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("Rooms")
+                        .HasColumnType("int");
 
                     b.Property<int>("Status")
                         .HasColumnType("int");
@@ -560,12 +546,6 @@ namespace Baytak.Infrastructure.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("Baytak.Domain.Entities.Property", "Property")
-                        .WithMany()
-                        .HasForeignKey("PropertyId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
                     b.HasOne("Baytak.Domain.Entities.ApplicationUser", "User")
                         .WithMany()
                         .HasForeignKey("UserId")
@@ -573,8 +553,6 @@ namespace Baytak.Infrastructure.Migrations
                         .IsRequired();
 
                     b.Navigation("Agent");
-
-                    b.Navigation("Property");
 
                     b.Navigation("User");
                 });

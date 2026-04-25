@@ -23,8 +23,7 @@ namespace Baytak.Application.Services
                 Description = dto.Description,
                 Price = dto.Price,
                 Area=dto.Area,
-                Bedrooms = dto.Bedrooms,
-                Bathrooms = dto.Bathrooms,
+                Rooms = dto.Rooms,
                 City = dto.City,
                 Address = dto.Address,
                 Type=dto.PropertyType,
@@ -53,8 +52,7 @@ namespace Baytak.Application.Services
             property.Title = dto.Title;
             property.Description = dto.Description;
             property.Price = dto.Price;
-            property.Bedrooms = dto.Bedrooms;
-            property.Bathrooms = dto.Bathrooms;
+            property.Rooms = dto.Rooms;
             property.City = dto.City;
             property.Address = dto.Address;
             property.Type = dto.PropertyType;
@@ -71,7 +69,7 @@ namespace Baytak.Application.Services
                 Id = p.Id,
                 Title = p.Title,
                 Price = p.Price,
-                Bedrooms = p.Bedrooms,
+                Rooms = p.Rooms,
                 City = p.City,
                 MainImageUrl = p.Images?
                         .OrderBy(i => i.Id)
@@ -89,16 +87,16 @@ namespace Baytak.Application.Services
             return new PropertyDto
             {
                 Id = p.Id,
+                AgentId= p.AgentId,
                 Title = p.Title,
                 Description = p.Description,
                 Price = p.Price,
                 Type=p.Type,
-                Bedrooms = p.Bedrooms,
+                Rooms = p.Rooms,
                 City = p.City,
                 Address = p.Address,
                 Status= p.Status,
                 Area= p.Area,
-                Bathrooms = p.Bathrooms,
                 ImageUrls = p.Images?
                      .Where(i => !i.IsDeleted) 
                      .Select(i => i.ImageUrl)
