@@ -1,4 +1,5 @@
 ﻿using Baytak.Domain.Entities;
+using Baytak.Domain.Enums;
 using Baytak.Domain.Interfaces;
 using Baytak.Infrastructure.Persistence;
 using System;
@@ -19,7 +20,7 @@ namespace Baytak.Infrastructure.Repositories
         public IQueryable<Property> GetSearchQuery(string? City, decimal? minPrice, decimal? maxPrice, int? Rooms, string? searchTerm)
         {
             var query = _context.Properties
-                .Where(p => !p.IsDeleted)
+                .Where(p => !p.IsDeleted && p.Status == PropertyStatus.Available)
                 .AsQueryable();
 
             if(!string.IsNullOrEmpty(City) )
