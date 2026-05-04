@@ -6,8 +6,8 @@ namespace Baytak.Domain.Enums
 {
     public enum PropertyStatus
     {
+        Available,
         Pending,
-        Approved,
-        Rejected
+        Sold
     }
 }

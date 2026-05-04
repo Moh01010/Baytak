@@ -3,7 +3,6 @@ using Baytak.Application.Interfaces;
 using Baytak.Domain.Entities;
 using Baytak.Domain.Enums;
 using Baytak.Domain.Interfaces;
-using Microsoft.AspNetCore.SignalR;
 using System;
 using System.Collections.Generic;
 using System.Text;

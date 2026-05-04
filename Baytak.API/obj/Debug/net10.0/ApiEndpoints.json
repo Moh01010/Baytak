@@ -80,6 +80,96 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Baytak.API.Controllers.BookingController",
+    "Method": "Add",
+    "RelativePath": "api/Booking",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Baytak.Application.DTOs.Booking.AddBookingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Baytak.API.Controllers.BookingController",
+    "Method": "Get",
+    "RelativePath": "api/Booking",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Baytak.API.Controllers.BookingController",
+    "Method": "Approve",
+    "RelativePath": "api/Booking/{Id}/approve",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Baytak.API.Controllers.BookingController",
+    "Method": "Cancel",
+    "RelativePath": "api/Booking/{Id}/cancel",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Baytak.API.Controllers.BookingController",
+    "Method": "Reject",
+    "RelativePath": "api/Booking/{Id}/reject",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Baytak.API.Controllers.BookingController",
+    "Method": "GetAgentBookings",
+    "RelativePath": "api/Booking/agent",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "status",
+        "Type": "System.Nullable\u00601[[Baytak.Domain.Enums.BookingStatus, Baytak.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Baytak.API.Controllers.ConversationsController",
     "Method": "Start",
     "RelativePath": "api/Conversations",
@@ -263,6 +353,22 @@
     "Method": "Get",
     "RelativePath": "api/Property/{id}",
     "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Baytak.API.Controllers.PropertyController",
+    "Method": "MarkAsSold",
+    "RelativePath": "api/Property/{id}/mark-as-sold",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [

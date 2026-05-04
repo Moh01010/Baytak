@@ -12,5 +12,6 @@ namespace Baytak.Application.Interfaces
         Task DeleteAsync(Guid id,string userId);
         Task<IEnumerable<PropertyAllDto>> GetAllAsync();
         Task<PropertyDto> GetByIdAsync(Guid id);
+        Task MarkAsSoldAsync(Guid id, string userId);
     }
 }
