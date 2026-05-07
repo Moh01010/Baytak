@@ -13,5 +13,6 @@ namespace Baytak.Application.Interfaces
         Task ConfirmEmail(ConfirmEmailDto dto);
         Task ForgotPassword(string email);
         Task ResetPassword(ResetPasswordDto dto);
+        Task ResendOtpAsync(ResendOtpDto dto);
     }
 }

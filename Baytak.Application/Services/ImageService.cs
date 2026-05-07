@@ -30,7 +30,7 @@ namespace Baytak.Application.Services
             if (!Directory.Exists(folderPath))
                 Directory.CreateDirectory(folderPath);
 
-            var fileName=Guid.NewGuid()+Path.GetExtension(file.Name);
+            var fileName = Guid.NewGuid() + Path.GetExtension(file.FileName);
 
             var filePath=Path.Combine(folderPath, fileName);
 

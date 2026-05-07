@@ -8,6 +8,7 @@ namespace Baytak.Domain.Enums
     {
         Pending,
         Approved,
-        Rejected
+        Rejected,
+        Cancelled
     }
 }

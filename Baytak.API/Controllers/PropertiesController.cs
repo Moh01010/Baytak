@@ -1,5 +1,6 @@
 ﻿using Baytak.Application.DTOs.Property;
 using Baytak.Application.Interfaces;
+using Baytak.Application.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -9,10 +10,10 @@ namespace Baytak.API.Controllers
     [Route("api/[controller]")]
     [ApiController]
     [Authorize]
-    public class PropertyController : ControllerBase
+    public class PropertiesController : ControllerBase
     {
         private readonly IPropertyService _service;
-        public PropertyController(IPropertyService service)
+        public PropertiesController(IPropertyService service)
         {
             _service = service;
         }
@@ -66,6 +67,26 @@ namespace Baytak.API.Controllers
             var result = await _service.GetByIdAsync(id);
             if (result == null) return NotFound(); 
             return Ok(result);
+        }
+        [HttpPut("{id}/mark-as-sold")]
+        public async Task<IActionResult> MarkAsSold(Guid id)
+        {
+            try
+            {
+                var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+                await _service.MarkAsSoldAsync(id, userId);
+
+                return Ok(new { message = "Property marked as sold successfully" });
+            }
+            catch (Exception ex) when (ex.Message == "Unauthorized")
+            {
+                return Forbid();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
     }
 }

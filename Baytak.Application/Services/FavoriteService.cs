@@ -1,25 +1,36 @@
-﻿using Baytak.Application.Interfaces;
+﻿using Baytak.Application.DTOs.Favorite;
+using Baytak.Application.Interfaces;
 using Baytak.Domain.Entities;
+using Baytak.Domain.Enums;
 using Baytak.Domain.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Security.Claims;
 using System.Text;
-using Baytak.Application.DTOs.Favorite;
 namespace Baytak.Application.Services
 {
     public class FavoriteService : IFavoriteService
     {
         private readonly IFavoriteRepository _repo;
+        private readonly IPropertyRepository _propertyRepo;
 
-        public FavoriteService(IFavoriteRepository repo)
+        public FavoriteService(IFavoriteRepository repo, IPropertyRepository propertyRepo)
         {
             _repo = repo;
+            _propertyRepo = propertyRepo;
         }
 
         public async Task AddAsync(Guid PropertyId, string userId)
         {
+            var property = await _propertyRepo.GetByIdAsync(PropertyId);
+            if (property == null)
+                throw new Exception("Property not found");
+
+            if (property.Status == PropertyStatus.Sold)
+                throw new Exception("Cannot favorite sold property");
+
             var result =await _repo.GetById(PropertyId, userId);
+
             if (result == null)
             {
                 var favorite = new Favorite
@@ -56,6 +67,7 @@ namespace Baytak.Application.Services
                 Title = f.Property.Title,
                 Price = f.Property.Price,
                 City = f.Property.City,
+                propertyStatus = f.Property.Status,
                 ImageUrl = f.Property.Images.FirstOrDefault()?.ImageUrl ?? "placeholder.jpg"
             });
         }

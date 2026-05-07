@@ -1,7 +1,8 @@
 ﻿using Baytak.Application.DTOs.Property;
 using Baytak.Application.Interfaces;
-using Baytak.Domain.Interfaces;
 using Baytak.Domain.Entities;
+using Baytak.Domain.Enums;
+using Baytak.Domain.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -11,10 +12,14 @@ namespace Baytak.Application.Services
     public class PropertyService : IPropertyService
     {
         private readonly IPropertyRepository _repo;
-        public PropertyService(IPropertyRepository repo)
+        private readonly IBookingRepository _bookRepository;
+
+        public PropertyService(IPropertyRepository repo, IBookingRepository bookRepository)
         {
             _repo = repo;
+            _bookRepository = bookRepository;
         }
+
         public async Task AddAsync(CreatePropertyDto dto, string userId)
         {
             var property = new Property
@@ -102,6 +107,28 @@ namespace Baytak.Application.Services
                      .Select(i => i.ImageUrl)
                      .ToList() ?? new List<string>()
             };
+        }
+        public async Task MarkAsSoldAsync(Guid id, string userId)
+        {
+            var property = await _repo.GetByIdAsync(id);
+
+            if (property == null)
+                throw new Exception("Property not found");
+
+            if (property.AgentId != userId)
+                throw new UnauthorizedAccessException();
+
+            property.Status = PropertyStatus.Sold;
+            await _repo.UpdateAsync(property);
+
+            var bookings = await _bookRepository.GetByPropertyIdAsync(property.Id);
+
+            foreach (var b in bookings.Where(b => b.Status == BookingStatus.Pending))
+            {
+                b.Status = BookingStatus.Cancelled;
+            }
+            await _bookRepository.UpdateRangeAsync(bookings);
+
         }
 
     }
