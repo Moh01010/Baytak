@@ -10,11 +10,11 @@ namespace Baytak.API.Controllers
     [Route("api/[controller]")]
     [ApiController]
     [Authorize]
-    public class FavoriteController : ControllerBase
+    public class FavoritesController : ControllerBase
     {
         private readonly IFavoriteService _service;
 
-        public FavoriteController(IFavoriteService service)
+        public FavoritesController(IFavoriteService service)
         {
             _service = service;
         }

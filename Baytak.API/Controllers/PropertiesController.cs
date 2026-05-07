@@ -10,10 +10,10 @@ namespace Baytak.API.Controllers
     [Route("api/[controller]")]
     [ApiController]
     [Authorize]
-    public class PropertyController : ControllerBase
+    public class PropertiesController : ControllerBase
     {
         private readonly IPropertyService _service;
-        public PropertyController(IPropertyService service)
+        public PropertiesController(IPropertyService service)
         {
             _service = service;
         }

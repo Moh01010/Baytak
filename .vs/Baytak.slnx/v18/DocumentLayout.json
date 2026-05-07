@@ -3,16 +3,96 @@
   "WorkspaceRootPath": "D:\\Baytak\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00D77FB9-CDB0-B9EF-9CC7-8EF5869B9D1C}|Baytak.Domain\\Baytak.Domain.csproj|d:\\baytak\\baytak.domain\\entities\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00D77FB9-CDB0-B9EF-9CC7-8EF5869B9D1C}|Baytak.Domain\\Baytak.Domain.csproj|solutionrelative:baytak.domain\\entities\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B909EFAA-A64D-87FB-8358-123F797F62A9}|Baytak.API\\Baytak.API.csproj|d:\\baytak\\baytak.api\\controllers\\notificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B909EFAA-A64D-87FB-8358-123F797F62A9}|Baytak.API\\Baytak.API.csproj|solutionrelative:baytak.api\\controllers\\notificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B909EFAA-A64D-87FB-8358-123F797F62A9}|Baytak.API\\Baytak.API.csproj|d:\\baytak\\baytak.api\\controllers\\favoritescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B909EFAA-A64D-87FB-8358-123F797F62A9}|Baytak.API\\Baytak.API.csproj|solutionrelative:baytak.api\\controllers\\favoritescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B909EFAA-A64D-87FB-8358-123F797F62A9}|Baytak.API\\Baytak.API.csproj|d:\\baytak\\baytak.api\\controllers\\propertiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B909EFAA-A64D-87FB-8358-123F797F62A9}|Baytak.API\\Baytak.API.csproj|solutionrelative:baytak.api\\controllers\\propertiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|d:\\baytak\\baytak.application\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|solutionrelative:baytak.application\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{00D77FB9-CDB0-B9EF-9CC7-8EF5869B9D1C}|Baytak.Domain\\Baytak.Domain.csproj|d:\\baytak\\baytak.domain\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D77FB9-CDB0-B9EF-9CC7-8EF5869B9D1C}|Baytak.Domain\\Baytak.Domain.csproj|solutionrelative:baytak.domain\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C4B350-C606-1DAF-8963-9FEDA18B416B}|Baytak.Infrastructure\\Baytak.Infrastructure.csproj|d:\\baytak\\baytak.infrastructure\\repositories\\notificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8C4B350-C606-1DAF-8963-9FEDA18B416B}|Baytak.Infrastructure\\Baytak.Infrastructure.csproj|solutionrelative:baytak.infrastructure\\repositories\\notificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|d:\\baytak\\baytak.application\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|solutionrelative:baytak.application\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|d:\\baytak\\baytak.application\\services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|solutionrelative:baytak.application\\services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|d:\\baytak\\baytak.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|solutionrelative:baytak.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B909EFAA-A64D-87FB-8358-123F797F62A9}|Baytak.API\\Baytak.API.csproj|d:\\baytak\\baytak.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B909EFAA-A64D-87FB-8358-123F797F62A9}|Baytak.API\\Baytak.API.csproj|solutionrelative:baytak.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|d:\\baytak\\baytak.application\\services\\propertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|solutionrelative:baytak.application\\services\\propertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|d:\\baytak\\baytak.application\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|solutionrelative:baytak.application\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00D77FB9-CDB0-B9EF-9CC7-8EF5869B9D1C}|Baytak.Domain\\Baytak.Domain.csproj|d:\\baytak\\baytak.domain\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D77FB9-CDB0-B9EF-9CC7-8EF5869B9D1C}|Baytak.Domain\\Baytak.Domain.csproj|solutionrelative:baytak.domain\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|d:\\baytak\\baytak.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|solutionrelative:baytak.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|d:\\baytak\\baytak.application\\dtos\\auth\\resendotpdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|solutionrelative:baytak.application\\dtos\\auth\\resendotpdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|d:\\baytak\\baytak.application\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|solutionrelative:baytak.application\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|d:\\baytak\\baytak.application\\interfaces\\ichatnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|solutionrelative:baytak.application\\interfaces\\ichatnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|d:\\baytak\\baytak.application\\interfaces\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|solutionrelative:baytak.application\\interfaces\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B909EFAA-A64D-87FB-8358-123F797F62A9}|Baytak.API\\Baytak.API.csproj|d:\\baytak\\baytak.api\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B909EFAA-A64D-87FB-8358-123F797F62A9}|Baytak.API\\Baytak.API.csproj|solutionrelative:baytak.api\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|d:\\baytak\\baytak.application\\dtos\\notification\\notificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|solutionrelative:baytak.application\\dtos\\notification\\notificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|d:\\baytak\\baytak.application\\dtos\\notification\\addnotificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|solutionrelative:baytak.application\\dtos\\notification\\addnotificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00D77FB9-CDB0-B9EF-9CC7-8EF5869B9D1C}|Baytak.Domain\\Baytak.Domain.csproj|d:\\baytak\\baytak.domain\\interfaces\\inotificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D77FB9-CDB0-B9EF-9CC7-8EF5869B9D1C}|Baytak.Domain\\Baytak.Domain.csproj|solutionrelative:baytak.domain\\interfaces\\inotificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00D77FB9-CDB0-B9EF-9CC7-8EF5869B9D1C}|Baytak.Domain\\Baytak.Domain.csproj|d:\\baytak\\baytak.domain\\entities\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D77FB9-CDB0-B9EF-9CC7-8EF5869B9D1C}|Baytak.Domain\\Baytak.Domain.csproj|solutionrelative:baytak.domain\\entities\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A8C4B350-C606-1DAF-8963-9FEDA18B416B}|Baytak.Infrastructure\\Baytak.Infrastructure.csproj|d:\\baytak\\baytak.infrastructure\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,10 +111,6 @@
       "RelativeMoniker": "D:0:0:{A8C4B350-C606-1DAF-8963-9FEDA18B416B}|Baytak.Infrastructure\\Baytak.Infrastructure.csproj|solutionrelative:baytak.infrastructure\\repositories\\searchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B909EFAA-A64D-87FB-8358-123F797F62A9}|Baytak.API\\Baytak.API.csproj|d:\\baytak\\baytak.api\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B909EFAA-A64D-87FB-8358-123F797F62A9}|Baytak.API\\Baytak.API.csproj|solutionrelative:baytak.api\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|d:\\baytak\\baytak.application\\interfaces\\ipropertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|solutionrelative:baytak.application\\interfaces\\ipropertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,16 +119,8 @@
       "RelativeMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|solutionrelative:baytak.application\\dtos\\booking\\addbookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00D77FB9-CDB0-B9EF-9CC7-8EF5869B9D1C}|Baytak.Domain\\Baytak.Domain.csproj|d:\\baytak\\baytak.domain\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00D77FB9-CDB0-B9EF-9CC7-8EF5869B9D1C}|Baytak.Domain\\Baytak.Domain.csproj|solutionrelative:baytak.domain\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|d:\\baytak\\baytak.application\\interfaces\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|solutionrelative:baytak.application\\interfaces\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B909EFAA-A64D-87FB-8358-123F797F62A9}|Baytak.API\\Baytak.API.csproj|d:\\baytak\\baytak.api\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B909EFAA-A64D-87FB-8358-123F797F62A9}|Baytak.API\\Baytak.API.csproj|solutionrelative:baytak.api\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B909EFAA-A64D-87FB-8358-123F797F62A9}|Baytak.API\\Baytak.API.csproj|d:\\baytak\\baytak.api\\controllers\\conversationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -131,20 +199,12 @@
       "RelativeMoniker": "D:0:0:{00D77FB9-CDB0-B9EF-9CC7-8EF5869B9D1C}|Baytak.Domain\\Baytak.Domain.csproj|solutionrelative:baytak.domain\\entities\\propertyimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00D77FB9-CDB0-B9EF-9CC7-8EF5869B9D1C}|Baytak.Domain\\Baytak.Domain.csproj|d:\\baytak\\baytak.domain\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00D77FB9-CDB0-B9EF-9CC7-8EF5869B9D1C}|Baytak.Domain\\Baytak.Domain.csproj|solutionrelative:baytak.domain\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{00D77FB9-CDB0-B9EF-9CC7-8EF5869B9D1C}|Baytak.Domain\\Baytak.Domain.csproj|d:\\baytak\\baytak.domain\\interfaces\\ipropertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00D77FB9-CDB0-B9EF-9CC7-8EF5869B9D1C}|Baytak.Domain\\Baytak.Domain.csproj|solutionrelative:baytak.domain\\interfaces\\ipropertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|d:\\baytak\\baytak.application\\dtos\\property\\updatepropertydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|solutionrelative:baytak.application\\dtos\\property\\updatepropertydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8C4B350-C606-1DAF-8963-9FEDA18B416B}|Baytak.Infrastructure\\Baytak.Infrastructure.csproj|d:\\baytak\\baytak.infrastructure\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8C4B350-C606-1DAF-8963-9FEDA18B416B}|Baytak.Infrastructure\\Baytak.Infrastructure.csproj|solutionrelative:baytak.infrastructure\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|d:\\baytak\\baytak.application\\dtos\\auth\\confirmemaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -163,24 +223,12 @@
       "RelativeMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|solutionrelative:baytak.application\\dtos\\auth\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|d:\\baytak\\baytak.application\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|solutionrelative:baytak.application\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|d:\\baytak\\baytak.application\\dtos\\auth\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|solutionrelative:baytak.application\\dtos\\auth\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|d:\\baytak\\baytak.application\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|solutionrelative:baytak.application\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|d:\\baytak\\baytak.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|solutionrelative:baytak.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8C4B350-C606-1DAF-8963-9FEDA18B416B}|Baytak.Infrastructure\\Baytak.Infrastructure.csproj|d:\\baytak\\baytak.infrastructure\\configurations\\reviewconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8C4B350-C606-1DAF-8963-9FEDA18B416B}|Baytak.Infrastructure\\Baytak.Infrastructure.csproj|solutionrelative:baytak.infrastructure\\configurations\\reviewconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|d:\\baytak\\baytak.application\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -197,6 +245,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A8C4B350-C606-1DAF-8963-9FEDA18B416B}|Baytak.Infrastructure\\Baytak.Infrastructure.csproj|d:\\baytak\\baytak.infrastructure\\configurations\\conversationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8C4B350-C606-1DAF-8963-9FEDA18B416B}|Baytak.Infrastructure\\Baytak.Infrastructure.csproj|solutionrelative:baytak.infrastructure\\configurations\\conversationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|d:\\baytak\\baytak.application\\dtos\\booking\\bookingagentalldto.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{947AAE4C-CF03-B188-7900-C03A984969C6}|Baytak.Application\\Baytak.Application.csproj|solutionrelative:baytak.application\\dtos\\booking\\bookingagentalldto.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -206,24 +258,323 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BookingRepository.cs",
-              "DocumentMoniker": "D:\\Baytak\\Baytak.Infrastructure\\Repositories\\BookingRepository.cs",
-              "RelativeDocumentMoniker": "Baytak.Infrastructure\\Repositories\\BookingRepository.cs",
-              "ToolTip": "D:\\Baytak\\Baytak.Infrastructure\\Repositories\\BookingRepository.cs",
-              "RelativeToolTip": "Baytak.Infrastructure\\Repositories\\BookingRepository.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAmwHUAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "FavoritesController.cs",
+              "DocumentMoniker": "D:\\Baytak\\Baytak.API\\Controllers\\FavoritesController.cs",
+              "RelativeDocumentMoniker": "Baytak.API\\Controllers\\FavoritesController.cs",
+              "ToolTip": "D:\\Baytak\\Baytak.API\\Controllers\\FavoritesController.cs",
+              "RelativeToolTip": "Baytak.API\\Controllers\\FavoritesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T20:10:53.514Z",
+              "WhenOpened": "2026-05-07T15:17:01.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "BookingAgentAllDto.cs",
+              "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\DTOs\\Booking\\BookingAgentAllDto.cs",
+              "RelativeDocumentMoniker": "Baytak.Application\\DTOs\\Booking\\BookingAgentAllDto.cs",
+              "ToolTip": "D:\\Baytak\\Baytak.Application\\DTOs\\Booking\\BookingAgentAllDto.cs",
+              "RelativeToolTip": "Baytak.Application\\DTOs\\Booking\\BookingAgentAllDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T15:10:17.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\Services\\BookingService.cs",
+              "RelativeDocumentMoniker": "Baytak.Application\\Services\\BookingService.cs",
+              "ToolTip": "D:\\Baytak\\Baytak.Application\\Services\\BookingService.cs",
+              "RelativeToolTip": "Baytak.Application\\Services\\BookingService.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAQwJMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T18:25:42.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PropertiesController.cs",
+              "DocumentMoniker": "D:\\Baytak\\Baytak.API\\Controllers\\PropertiesController.cs",
+              "RelativeDocumentMoniker": "Baytak.API\\Controllers\\PropertiesController.cs",
+              "ToolTip": "D:\\Baytak\\Baytak.API\\Controllers\\PropertiesController.cs",
+              "RelativeToolTip": "Baytak.API\\Controllers\\PropertiesController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwFkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T21:27:58.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotificationsController.cs",
+              "DocumentMoniker": "D:\\Baytak\\Baytak.API\\Controllers\\NotificationsController.cs",
+              "RelativeDocumentMoniker": "Baytak.API\\Controllers\\NotificationsController.cs",
+              "ToolTip": "D:\\Baytak\\Baytak.API\\Controllers\\NotificationsController.cs",
+              "RelativeToolTip": "Baytak.API\\Controllers\\NotificationsController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAACgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T20:58:05.834Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "NotificationRepository.cs",
+              "DocumentMoniker": "D:\\Baytak\\Baytak.Infrastructure\\Repositories\\NotificationRepository.cs",
+              "RelativeDocumentMoniker": "Baytak.Infrastructure\\Repositories\\NotificationRepository.cs",
+              "ToolTip": "D:\\Baytak\\Baytak.Infrastructure\\Repositories\\NotificationRepository.cs",
+              "RelativeToolTip": "Baytak.Infrastructure\\Repositories\\NotificationRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T20:15:05.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\Services\\NotificationService.cs",
+              "RelativeDocumentMoniker": "Baytak.Application\\Services\\NotificationService.cs",
+              "ToolTip": "D:\\Baytak\\Baytak.Application\\Services\\NotificationService.cs",
+              "RelativeToolTip": "Baytak.Application\\Services\\NotificationService.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAuwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T20:43:05.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ChatService.cs",
+              "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\Services\\ChatService.cs",
+              "RelativeDocumentMoniker": "Baytak.Application\\Services\\ChatService.cs",
+              "ToolTip": "D:\\Baytak\\Baytak.Application\\Services\\ChatService.cs",
+              "RelativeToolTip": "Baytak.Application\\Services\\ChatService.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAEwE0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T21:24:21.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "D:\\Baytak\\Baytak.Domain\\Entities\\Booking.cs",
+              "RelativeDocumentMoniker": "Baytak.Domain\\Entities\\Booking.cs",
+              "ToolTip": "D:\\Baytak\\Baytak.Domain\\Entities\\Booking.cs",
+              "RelativeToolTip": "Baytak.Domain\\Entities\\Booking.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA5wBAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T20:06:04.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ResendOtpDto.cs",
+              "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\DTOs\\Auth\\ResendOtpDto.cs",
+              "RelativeDocumentMoniker": "Baytak.Application\\DTOs\\Auth\\ResendOtpDto.cs",
+              "ToolTip": "D:\\Baytak\\Baytak.Application\\DTOs\\Auth\\ResendOtpDto.cs",
+              "RelativeToolTip": "Baytak.Application\\DTOs\\Auth\\ResendOtpDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T16:01:47.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PropertyService.cs",
+              "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\Services\\PropertyService.cs",
+              "RelativeDocumentMoniker": "Baytak.Application\\Services\\PropertyService.cs",
+              "ToolTip": "D:\\Baytak\\Baytak.Application\\Services\\PropertyService.cs",
+              "RelativeToolTip": "Baytak.Application\\Services\\PropertyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T21:26:56.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Baytak\\Baytak.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Baytak.API\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Baytak\\Baytak.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Baytak.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAADwv0cAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T15:26:43.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\Baytak\\Baytak.Domain\\Entities\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Baytak.Domain\\Entities\\ApplicationUser.cs",
+              "ToolTip": "D:\\Baytak\\Baytak.Domain\\Entities\\ApplicationUser.cs",
+              "RelativeToolTip": "Baytak.Domain\\Entities\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T16:17:41.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ImageService.cs",
+              "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\Services\\ImageService.cs",
+              "RelativeDocumentMoniker": "Baytak.Application\\Services\\ImageService.cs",
+              "ToolTip": "D:\\Baytak\\Baytak.Application\\Services\\ImageService.cs",
+              "RelativeToolTip": "Baytak.Application\\Services\\ImageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwCkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T17:29:39.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Baytak.Application\\Services\\AuthService.cs",
+              "ToolTip": "D:\\Baytak\\Baytak.Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "Baytak.Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T12:32:25.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\DTOs\\Auth\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "Baytak.Application\\DTOs\\Auth\\RegisterDto.cs",
+              "ToolTip": "D:\\Baytak\\Baytak.Application\\DTOs\\Auth\\RegisterDto.cs",
+              "RelativeToolTip": "Baytak.Application\\DTOs\\Auth\\RegisterDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T15:23:24.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Baytak.Application\\Interfaces\\IAuthService.cs",
+              "ToolTip": "D:\\Baytak\\Baytak.Application\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Baytak.Application\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T15:27:06.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IChatNotifier.cs",
+              "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\Interfaces\\IChatNotifier.cs",
+              "RelativeDocumentMoniker": "Baytak.Application\\Interfaces\\IChatNotifier.cs",
+              "ToolTip": "D:\\Baytak\\Baytak.Application\\Interfaces\\IChatNotifier.cs",
+              "RelativeToolTip": "Baytak.Application\\Interfaces\\IChatNotifier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T21:27:27.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NotificationDto.cs",
+              "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\DTOs\\Notification\\NotificationDto.cs",
+              "RelativeDocumentMoniker": "Baytak.Application\\DTOs\\Notification\\NotificationDto.cs",
+              "ToolTip": "D:\\Baytak\\Baytak.Application\\DTOs\\Notification\\NotificationDto.cs",
+              "RelativeToolTip": "Baytak.Application\\DTOs\\Notification\\NotificationDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T20:39:52.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "INotificationService.cs",
+              "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\Interfaces\\INotificationService.cs",
+              "RelativeDocumentMoniker": "Baytak.Application\\Interfaces\\INotificationService.cs",
+              "ToolTip": "D:\\Baytak\\Baytak.Application\\Interfaces\\INotificationService.cs",
+              "RelativeToolTip": "Baytak.Application\\Interfaces\\INotificationService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAEwAsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T20:32:09.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "D:\\Baytak\\Baytak.API\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "Baytak.API\\Controllers\\BookingController.cs",
+              "ToolTip": "D:\\Baytak\\Baytak.API\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "Baytak.API\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAcwDcAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T18:58:04.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AddNotificationDto.cs",
+              "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\DTOs\\Notification\\AddNotificationDto.cs",
+              "RelativeDocumentMoniker": "Baytak.Application\\DTOs\\Notification\\AddNotificationDto.cs",
+              "ToolTip": "D:\\Baytak\\Baytak.Application\\DTOs\\Notification\\AddNotificationDto.cs",
+              "RelativeToolTip": "Baytak.Application\\DTOs\\Notification\\AddNotificationDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T20:33:52.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "INotificationRepository.cs",
+              "DocumentMoniker": "D:\\Baytak\\Baytak.Domain\\Interfaces\\INotificationRepository.cs",
+              "RelativeDocumentMoniker": "Baytak.Domain\\Interfaces\\INotificationRepository.cs",
+              "ToolTip": "D:\\Baytak\\Baytak.Domain\\Interfaces\\INotificationRepository.cs",
+              "RelativeToolTip": "Baytak.Domain\\Interfaces\\INotificationRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwAoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T20:12:56.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "D:\\Baytak\\Baytak.Domain\\Entities\\Notification.cs",
+              "RelativeDocumentMoniker": "Baytak.Domain\\Entities\\Notification.cs",
+              "ToolTip": "D:\\Baytak\\Baytak.Domain\\Entities\\Notification.cs",
+              "RelativeToolTip": "Baytak.Domain\\Entities\\Notification.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T13:35:05.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "FavoriteService.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\Services\\FavoriteService.cs",
               "RelativeDocumentMoniker": "Baytak.Application\\Services\\FavoriteService.cs",
@@ -236,59 +587,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PropertyService.cs",
-              "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\Services\\PropertyService.cs",
-              "RelativeDocumentMoniker": "Baytak.Application\\Services\\PropertyService.cs",
-              "ToolTip": "D:\\Baytak\\Baytak.Application\\Services\\PropertyService.cs",
-              "RelativeToolTip": "Baytak.Application\\Services\\PropertyService.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAowEsAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T21:26:56.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 24,
               "Title": "IBookingRepository.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Domain\\Interfaces\\IBookingRepository.cs",
               "RelativeDocumentMoniker": "Baytak.Domain\\Interfaces\\IBookingRepository.cs",
               "ToolTip": "D:\\Baytak\\Baytak.Domain\\Interfaces\\IBookingRepository.cs",
               "RelativeToolTip": "Baytak.Domain\\Interfaces\\IBookingRepository.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA6wBMAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA4wBMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-25T20:04:32.645Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BookingService.cs",
-              "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\Services\\BookingService.cs",
-              "RelativeDocumentMoniker": "Baytak.Application\\Services\\BookingService.cs",
-              "ToolTip": "D:\\Baytak\\Baytak.Application\\Services\\BookingService.cs",
-              "RelativeToolTip": "Baytak.Application\\Services\\BookingService.cs",
-              "ViewState": "AgIAAJQAAAAAAAAAAAAwwEoAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 23,
+              "Title": "BookingRepository.cs",
+              "DocumentMoniker": "D:\\Baytak\\Baytak.Infrastructure\\Repositories\\BookingRepository.cs",
+              "RelativeDocumentMoniker": "Baytak.Infrastructure\\Repositories\\BookingRepository.cs",
+              "ToolTip": "D:\\Baytak\\Baytak.Infrastructure\\Repositories\\BookingRepository.cs",
+              "RelativeToolTip": "Baytak.Infrastructure\\Repositories\\BookingRepository.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAmwHUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T18:25:42.159Z",
+              "WhenOpened": "2026-04-25T20:10:53.514Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Notification.cs",
-              "DocumentMoniker": "D:\\Baytak\\Baytak.Domain\\Entities\\Notification.cs",
-              "RelativeDocumentMoniker": "Baytak.Domain\\Entities\\Notification.cs",
-              "ToolTip": "D:\\Baytak\\Baytak.Domain\\Entities\\Notification.cs",
-              "RelativeToolTip": "Baytak.Domain\\Entities\\Notification.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAcAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T13:35:05.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 26,
               "Title": "SearchRepository.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Infrastructure\\Repositories\\SearchRepository.cs",
               "RelativeDocumentMoniker": "Baytak.Infrastructure\\Repositories\\SearchRepository.cs",
@@ -301,59 +626,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PropertyController.cs",
-              "DocumentMoniker": "D:\\Baytak\\Baytak.API\\Controllers\\PropertyController.cs",
-              "RelativeDocumentMoniker": "Baytak.API\\Controllers\\PropertyController.cs",
-              "ToolTip": "D:\\Baytak\\Baytak.API\\Controllers\\PropertyController.cs",
-              "RelativeToolTip": "Baytak.API\\Controllers\\PropertyController.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAowFkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T21:27:58.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 28,
               "Title": "AddBookingDto.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\DTOs\\Booking\\AddBookingDto.cs",
               "RelativeDocumentMoniker": "Baytak.Application\\DTOs\\Booking\\AddBookingDto.cs",
               "ToolTip": "D:\\Baytak\\Baytak.Application\\DTOs\\Booking\\AddBookingDto.cs",
               "RelativeToolTip": "Baytak.Application\\DTOs\\Booking\\AddBookingDto.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAABRwA0AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-03T20:29:39.046Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Booking.cs",
-              "DocumentMoniker": "D:\\Baytak\\Baytak.Domain\\Entities\\Booking.cs",
-              "RelativeDocumentMoniker": "Baytak.Domain\\Entities\\Booking.cs",
-              "ToolTip": "D:\\Baytak\\Baytak.Domain\\Entities\\Booking.cs",
-              "RelativeToolTip": "Baytak.Domain\\Entities\\Booking.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAkwBAAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T20:06:04.579Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 27,
               "Title": "IPropertyService.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\Interfaces\\IPropertyService.cs",
               "RelativeDocumentMoniker": "Baytak.Application\\Interfaces\\IPropertyService.cs",
               "ToolTip": "D:\\Baytak\\Baytak.Application\\Interfaces\\IPropertyService.cs",
               "RelativeToolTip": "Baytak.Application\\Interfaces\\IPropertyService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwA4AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-11T21:42:31.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 29,
               "Title": "IBookingService.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\Interfaces\\IBookingService.cs",
               "RelativeDocumentMoniker": "Baytak.Application\\Interfaces\\IBookingService.cs",
@@ -361,23 +660,12 @@
               "RelativeToolTip": "Baytak.Application\\Interfaces\\IBookingService.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAwA0AAABpAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T20:18:28.887Z"
+              "WhenOpened": "2026-04-25T20:18:28.887Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "BookingController.cs",
-              "DocumentMoniker": "D:\\Baytak\\Baytak.API\\Controllers\\BookingController.cs",
-              "RelativeDocumentMoniker": "Baytak.API\\Controllers\\BookingController.cs",
-              "ToolTip": "D:\\Baytak\\Baytak.API\\Controllers\\BookingController.cs",
-              "RelativeToolTip": "Baytak.API\\Controllers\\BookingController.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAcwDkAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T18:58:04.819Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 31,
               "Title": "PropertyRepository.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Infrastructure\\Repositories\\PropertyRepository.cs",
               "RelativeDocumentMoniker": "Baytak.Infrastructure\\Repositories\\PropertyRepository.cs",
@@ -385,11 +673,12 @@
               "RelativeToolTip": "Baytak.Infrastructure\\Repositories\\PropertyRepository.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAqwBsAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T21:22:48.114Z"
+              "WhenOpened": "2026-04-11T21:22:48.114Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 30,
               "Title": "ConversationsController.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.API\\Controllers\\ConversationsController.cs",
               "RelativeDocumentMoniker": "Baytak.API\\Controllers\\ConversationsController.cs",
@@ -397,23 +686,25 @@
               "RelativeToolTip": "Baytak.API\\Controllers\\ConversationsController.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAYwCoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T09:32:41.293Z"
+              "WhenOpened": "2026-04-23T09:32:41.293Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 33,
               "Title": "CreatePropertyDto.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\DTOs\\Property\\CreatePropertyDto.cs",
               "RelativeDocumentMoniker": "Baytak.Application\\DTOs\\Property\\CreatePropertyDto.cs",
               "ToolTip": "D:\\Baytak\\Baytak.Application\\DTOs\\Property\\CreatePropertyDto.cs",
               "RelativeToolTip": "Baytak.Application\\DTOs\\Property\\CreatePropertyDto.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA1wAsAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwAsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T20:00:34.618Z"
+              "WhenOpened": "2026-04-11T20:00:34.618Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 32,
               "Title": "SearchController.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.API\\Controllers\\SearchController.cs",
               "RelativeDocumentMoniker": "Baytak.API\\Controllers\\SearchController.cs",
@@ -421,11 +712,12 @@
               "RelativeToolTip": "Baytak.API\\Controllers\\SearchController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T17:27:26.426Z"
+              "WhenOpened": "2026-04-16T17:27:26.426Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 34,
               "Title": "IFavoriteService.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\Interfaces\\IFavoriteService.cs",
               "RelativeDocumentMoniker": "Baytak.Application\\Interfaces\\IFavoriteService.cs",
@@ -433,23 +725,25 @@
               "RelativeToolTip": "Baytak.Application\\Interfaces\\IFavoriteService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwAQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T18:59:30.62Z"
+              "WhenOpened": "2026-04-17T18:59:30.62Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 36,
               "Title": "IFavoriteRepository.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Domain\\Interfaces\\IFavoriteRepository.cs",
               "RelativeDocumentMoniker": "Baytak.Domain\\Interfaces\\IFavoriteRepository.cs",
               "ToolTip": "D:\\Baytak\\Baytak.Domain\\Interfaces\\IFavoriteRepository.cs",
               "RelativeToolTip": "Baytak.Domain\\Interfaces\\IFavoriteRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBJwA0AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwA0AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T17:11:38.691Z"
+              "WhenOpened": "2026-04-17T17:11:38.691Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 35,
               "Title": "FavoritePropertyDto.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\DTOs\\Favorite\\FavoritePropertyDto.cs",
               "RelativeDocumentMoniker": "Baytak.Application\\DTOs\\Favorite\\FavoritePropertyDto.cs",
@@ -462,19 +756,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 37,
               "Title": "IPropertyImageRepository.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Domain\\Interfaces\\IPropertyImageRepository.cs",
               "RelativeDocumentMoniker": "Baytak.Domain\\Interfaces\\IPropertyImageRepository.cs",
               "ToolTip": "D:\\Baytak\\Baytak.Domain\\Interfaces\\IPropertyImageRepository.cs",
               "RelativeToolTip": "Baytak.Domain\\Interfaces\\IPropertyImageRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAwAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwAwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T19:11:01.266Z"
+              "WhenOpened": "2026-04-12T19:11:01.266Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 39,
               "Title": "ISearchRepository.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Domain\\Interfaces\\ISearchRepository.cs",
               "RelativeDocumentMoniker": "Baytak.Domain\\Interfaces\\ISearchRepository.cs",
@@ -482,11 +777,12 @@
               "RelativeToolTip": "Baytak.Domain\\Interfaces\\ISearchRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T15:32:52.327Z"
+              "WhenOpened": "2026-04-16T15:32:52.327Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 38,
               "Title": "ISearchService.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\Interfaces\\ISearchService.cs",
               "RelativeDocumentMoniker": "Baytak.Application\\Interfaces\\ISearchService.cs",
@@ -494,11 +790,12 @@
               "RelativeToolTip": "Baytak.Application\\Interfaces\\ISearchService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T17:13:42.854Z"
+              "WhenOpened": "2026-04-16T17:13:42.854Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 40,
               "Title": "PropertySearchDto.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\DTOs\\Property\\PropertySearchDto.cs",
               "RelativeDocumentMoniker": "Baytak.Application\\DTOs\\Property\\PropertySearchDto.cs",
@@ -506,11 +803,12 @@
               "RelativeToolTip": "Baytak.Application\\DTOs\\Property\\PropertySearchDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T17:17:01.039Z"
+              "WhenOpened": "2026-04-16T17:17:01.039Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 41,
               "Title": "PropertyAllDto.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\DTOs\\Property\\PropertyAllDto.cs",
               "RelativeDocumentMoniker": "Baytak.Application\\DTOs\\Property\\PropertyAllDto.cs",
@@ -518,23 +816,25 @@
               "RelativeToolTip": "Baytak.Application\\DTOs\\Property\\PropertyAllDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T20:15:59.089Z"
+              "WhenOpened": "2026-04-11T20:15:59.089Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 42,
               "Title": "PropertyDto.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\DTOs\\Property\\PropertyDto.cs",
               "RelativeDocumentMoniker": "Baytak.Application\\DTOs\\Property\\PropertyDto.cs",
               "ToolTip": "D:\\Baytak\\Baytak.Application\\DTOs\\Property\\PropertyDto.cs",
               "RelativeToolTip": "Baytak.Application\\DTOs\\Property\\PropertyDto.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA9wBkAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowBkAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T09:55:37.532Z"
+              "WhenOpened": "2026-04-16T09:55:37.532Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 46,
               "Title": "GetImageDto.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\DTOs\\PropertyImage\\GetImageDto.cs",
               "RelativeDocumentMoniker": "Baytak.Application\\DTOs\\PropertyImage\\GetImageDto.cs",
@@ -542,11 +842,12 @@
               "RelativeToolTip": "Baytak.Application\\DTOs\\PropertyImage\\GetImageDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T20:12:11.154Z"
+              "WhenOpened": "2026-04-12T20:12:11.154Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 44,
               "Title": "IPropertyImageService.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\Interfaces\\IPropertyImageService.cs",
               "RelativeDocumentMoniker": "Baytak.Application\\Interfaces\\IPropertyImageService.cs",
@@ -554,11 +855,12 @@
               "RelativeToolTip": "Baytak.Application\\Interfaces\\IPropertyImageService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T19:56:13.118Z"
+              "WhenOpened": "2026-04-12T19:56:13.118Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 43,
               "Title": "PropertyImageRepository.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Infrastructure\\Repositories\\PropertyImageRepository.cs",
               "RelativeDocumentMoniker": "Baytak.Infrastructure\\Repositories\\PropertyImageRepository.cs",
@@ -566,11 +868,12 @@
               "RelativeToolTip": "Baytak.Infrastructure\\Repositories\\PropertyImageRepository.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAgwCMAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T12:12:16.965Z"
+              "WhenOpened": "2026-04-13T12:12:16.965Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 45,
               "Title": "PropertyImageResponseDto.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\DTOs\\PropertyImage\\PropertyImageResponseDto.cs",
               "RelativeDocumentMoniker": "Baytak.Application\\DTOs\\PropertyImage\\PropertyImageResponseDto.cs",
@@ -578,11 +881,12 @@
               "RelativeToolTip": "Baytak.Application\\DTOs\\PropertyImage\\PropertyImageResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T11:59:13.437Z"
+              "WhenOpened": "2026-04-13T11:59:13.437Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 47,
               "Title": "UploadImageDto.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\DTOs\\PropertyImage\\UploadImageDto.cs",
               "RelativeDocumentMoniker": "Baytak.Application\\DTOs\\PropertyImage\\UploadImageDto.cs",
@@ -590,35 +894,25 @@
               "RelativeToolTip": "Baytak.Application\\DTOs\\PropertyImage\\UploadImageDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T20:10:45.458Z"
+              "WhenOpened": "2026-04-12T20:10:45.458Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 48,
               "Title": "PropertyImage.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Domain\\Entities\\PropertyImage.cs",
               "RelativeDocumentMoniker": "Baytak.Domain\\Entities\\PropertyImage.cs",
               "ToolTip": "D:\\Baytak\\Baytak.Domain\\Entities\\PropertyImage.cs",
               "RelativeToolTip": "Baytak.Domain\\Entities\\PropertyImage.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBJwA4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T13:09:48.267Z"
+              "WhenOpened": "2026-04-09T13:09:48.267Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Review.cs",
-              "DocumentMoniker": "D:\\Baytak\\Baytak.Domain\\Entities\\Review.cs",
-              "RelativeDocumentMoniker": "Baytak.Domain\\Entities\\Review.cs",
-              "ToolTip": "D:\\Baytak\\Baytak.Domain\\Entities\\Review.cs",
-              "RelativeToolTip": "Baytak.Domain\\Entities\\Review.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAYAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T13:30:53.196Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 49,
               "Title": "IPropertyRepository.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Domain\\Interfaces\\IPropertyRepository.cs",
               "RelativeDocumentMoniker": "Baytak.Domain\\Interfaces\\IPropertyRepository.cs",
@@ -626,11 +920,12 @@
               "RelativeToolTip": "Baytak.Domain\\Interfaces\\IPropertyRepository.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAuwAYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T21:01:34.751Z"
+              "WhenOpened": "2026-04-11T21:01:34.751Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 50,
               "Title": "UpdatePropertyDto.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\DTOs\\Property\\UpdatePropertyDto.cs",
               "RelativeDocumentMoniker": "Baytak.Application\\DTOs\\Property\\UpdatePropertyDto.cs",
@@ -638,11 +933,12 @@
               "RelativeToolTip": "Baytak.Application\\DTOs\\Property\\UpdatePropertyDto.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T20:12:02.546Z"
+              "WhenOpened": "2026-04-11T20:12:02.546Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 53,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\Baytak\\Baytak.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Baytak.API\\Properties\\launchSettings.json",
@@ -650,11 +946,12 @@
               "RelativeToolTip": "Baytak.API\\Properties\\launchSettings.json",
               "ViewState": "AgIAAA8AAAAAAAAAAAAUwBgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-10T20:25:01.238Z"
+              "WhenOpened": "2026-04-10T20:25:01.238Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 51,
               "Title": "ConfirmEmailDto.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\DTOs\\Auth\\ConfirmEmailDto.cs",
               "RelativeDocumentMoniker": "Baytak.Application\\DTOs\\Auth\\ConfirmEmailDto.cs",
@@ -662,11 +959,12 @@
               "RelativeToolTip": "Baytak.Application\\DTOs\\Auth\\ConfirmEmailDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T19:14:43.191Z"
+              "WhenOpened": "2026-04-10T19:14:43.191Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 52,
               "Title": "EmailService.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Infrastructure\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "Baytak.Infrastructure\\Services\\EmailService.cs",
@@ -674,23 +972,12 @@
               "RelativeToolTip": "Baytak.Infrastructure\\Services\\EmailService.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAYwBQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T17:06:44.275Z"
+              "WhenOpened": "2026-04-10T17:06:44.275Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "D:\\Baytak\\Baytak.Infrastructure\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Baytak.Infrastructure\\Services\\AuthService.cs",
-              "ToolTip": "D:\\Baytak\\Baytak.Infrastructure\\Services\\AuthService.cs",
-              "RelativeToolTip": "Baytak.Infrastructure\\Services\\AuthService.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwDcAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T15:30:35.621Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 54,
               "Title": "ResetPasswordDto.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\DTOs\\Auth\\ResetPasswordDto.cs",
               "RelativeDocumentMoniker": "Baytak.Application\\DTOs\\Auth\\ResetPasswordDto.cs",
@@ -698,11 +985,12 @@
               "RelativeToolTip": "Baytak.Application\\DTOs\\Auth\\ResetPasswordDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwA0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T19:54:29.236Z"
+              "WhenOpened": "2026-04-10T19:54:29.236Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 55,
               "Title": "AuthResponseDto.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\DTOs\\Auth\\AuthResponseDto.cs",
               "RelativeDocumentMoniker": "Baytak.Application\\DTOs\\Auth\\AuthResponseDto.cs",
@@ -710,23 +998,12 @@
               "RelativeToolTip": "Baytak.Application\\DTOs\\Auth\\AuthResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T15:25:27.486Z"
+              "WhenOpened": "2026-04-10T15:25:27.486Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "RegisterDto.cs",
-              "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\DTOs\\Auth\\RegisterDto.cs",
-              "RelativeDocumentMoniker": "Baytak.Application\\DTOs\\Auth\\RegisterDto.cs",
-              "ToolTip": "D:\\Baytak\\Baytak.Application\\DTOs\\Auth\\RegisterDto.cs",
-              "RelativeToolTip": "Baytak.Application\\DTOs\\Auth\\RegisterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBZwA0AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T15:23:24.945Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 56,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\DTOs\\Auth\\LoginDto.cs",
               "RelativeDocumentMoniker": "Baytak.Application\\DTOs\\Auth\\LoginDto.cs",
@@ -734,35 +1011,12 @@
               "RelativeToolTip": "Baytak.Application\\DTOs\\Auth\\LoginDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T15:24:26.513Z"
+              "WhenOpened": "2026-04-10T15:24:26.513Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\Interfaces\\IAuthService.cs",
-              "RelativeDocumentMoniker": "Baytak.Application\\Interfaces\\IAuthService.cs",
-              "ToolTip": "D:\\Baytak\\Baytak.Application\\Interfaces\\IAuthService.cs",
-              "RelativeToolTip": "Baytak.Application\\Interfaces\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAMBdwA4AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T15:27:06.972Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "ReviewConfiguration.cs",
-              "DocumentMoniker": "D:\\Baytak\\Baytak.Infrastructure\\Configurations\\ReviewConfiguration.cs",
-              "RelativeDocumentMoniker": "Baytak.Infrastructure\\Configurations\\ReviewConfiguration.cs",
-              "ToolTip": "D:\\Baytak\\Baytak.Infrastructure\\Configurations\\ReviewConfiguration.cs",
-              "RelativeToolTip": "Baytak.Infrastructure\\Configurations\\ReviewConfiguration.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAmwBUAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T17:53:38.257Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 57,
               "Title": "IEmailService.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Application\\Interfaces\\IEmailService.cs",
               "RelativeDocumentMoniker": "Baytak.Application\\Interfaces\\IEmailService.cs",
@@ -770,11 +1024,12 @@
               "RelativeToolTip": "Baytak.Application\\Interfaces\\IEmailService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T17:37:53.335Z"
+              "WhenOpened": "2026-04-10T17:37:53.335Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 59,
               "Title": "MessageConfiguration.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Infrastructure\\Configurations\\MessageConfiguration.cs",
               "RelativeDocumentMoniker": "Baytak.Infrastructure\\Configurations\\MessageConfiguration.cs",
@@ -782,11 +1037,12 @@
               "RelativeToolTip": "Baytak.Infrastructure\\Configurations\\MessageConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBZwBIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T17:10:28.868Z"
+              "WhenOpened": "2026-04-09T17:10:28.868Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 58,
               "Title": "PropertyConfiguration.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Infrastructure\\Configurations\\PropertyConfiguration.cs",
               "RelativeDocumentMoniker": "Baytak.Infrastructure\\Configurations\\PropertyConfiguration.cs",
@@ -794,11 +1050,12 @@
               "RelativeToolTip": "Baytak.Infrastructure\\Configurations\\PropertyConfiguration.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAowBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T17:05:22.692Z"
+              "WhenOpened": "2026-04-09T17:05:22.692Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 60,
               "Title": "ConversationConfiguration.cs",
               "DocumentMoniker": "D:\\Baytak\\Baytak.Infrastructure\\Configurations\\ConversationConfiguration.cs",
               "RelativeDocumentMoniker": "Baytak.Infrastructure\\Configurations\\ConversationConfiguration.cs",
@@ -806,7 +1063,8 @@
               "RelativeToolTip": "Baytak.Infrastructure\\Configurations\\ConversationConfiguration.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAmwA8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T17:12:06.446Z"
+              "WhenOpened": "2026-04-09T17:12:06.446Z",
+              "EditorCaption": ""
             }
           ]
         }

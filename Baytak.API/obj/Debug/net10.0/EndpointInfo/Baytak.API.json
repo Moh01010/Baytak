@@ -150,6 +150,37 @@
         }
       }
     },
+    "/api/Auth/resend-otp": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ResendOtpDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ResendOtpDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ResendOtpDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Booking": {
       "post": {
         "tags": [
@@ -312,10 +343,10 @@
         }
       }
     },
-    "/api/Favorite/{PropertyId}": {
+    "/api/Favorites/{PropertyId}": {
       "post": {
         "tags": [
-          "Favorite"
+          "Favorites"
         ],
         "parameters": [
           {
@@ -336,7 +367,7 @@
       },
       "delete": {
         "tags": [
-          "Favorite"
+          "Favorites"
         ],
         "parameters": [
           {
@@ -356,10 +387,10 @@
         }
       }
     },
-    "/api/Favorite": {
+    "/api/Favorites": {
       "get": {
         "tags": [
-          "Favorite"
+          "Favorites"
         ],
         "responses": {
           "200": {
@@ -445,10 +476,45 @@
         }
       }
     },
-    "/api/Property": {
+    "/api/Notifications": {
+      "get": {
+        "tags": [
+          "Notifications"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Notifications/{id}/read": {
+      "put": {
+        "tags": [
+          "Notifications"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Properties": {
       "post": {
         "tags": [
-          "Property"
+          "Properties"
         ],
         "requestBody": {
           "content": {
@@ -477,7 +543,7 @@
       },
       "get": {
         "tags": [
-          "Property"
+          "Properties"
         ],
         "responses": {
           "200": {
@@ -486,10 +552,10 @@
         }
       }
     },
-    "/api/Property/{id}": {
+    "/api/Properties/{id}": {
       "put": {
         "tags": [
-          "Property"
+          "Properties"
         ],
         "parameters": [
           {
@@ -529,7 +595,7 @@
       },
       "delete": {
         "tags": [
-          "Property"
+          "Properties"
         ],
         "parameters": [
           {
@@ -550,7 +616,7 @@
       },
       "get": {
         "tags": [
-          "Property"
+          "Properties"
         ],
         "parameters": [
           {
@@ -570,10 +636,10 @@
         }
       }
     },
-    "/api/Property/{id}/mark-as-sold": {
+    "/api/Properties/{id}/mark-as-sold": {
       "put": {
         "tags": [
-          "Property"
+          "Properties"
         ],
         "parameters": [
           {
@@ -860,6 +926,20 @@
           "password": {
             "minLength": 8,
             "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ResendOtpDto": {
+        "required": [
+          "email"
+        ],
+        "type": "object",
+        "properties": {
+          "email": {
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
           }
         },
         "additionalProperties": false
