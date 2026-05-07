@@ -21,7 +21,6 @@ public class AppDbContext : IdentityDbContext<ApplicationUser>
     public DbSet<Conversation> Conversations { get; set; }
     public DbSet<Message> Messages { get; set; }
     public DbSet<Booking> Bookings { get; set; }
-    public DbSet<Review> Reviews { get; set; }
     public DbSet<Notification> Notifications { get; set; }
 
 

@@ -1,4 +1,5 @@
 ﻿using Baytak.Application.DTOs.Booking;
+using Baytak.Application.DTOs.Notification;
 using Baytak.Application.Interfaces;
 using Baytak.Domain.Entities;
 using Baytak.Domain.Enums;
@@ -12,11 +13,13 @@ namespace Baytak.Application.Services
     {
         private readonly IBookingRepository _repo;
         private readonly IPropertyRepository _propertyRepo;
+        private readonly INotificationService _notificationService;
 
-        public BookingService(IBookingRepository repo, IPropertyRepository propertyRepo)
+        public BookingService(IBookingRepository repo, IPropertyRepository propertyRepo, INotificationService notificationService)
         {
             _repo = repo;
             _propertyRepo = propertyRepo;
+            _notificationService = notificationService;
         }
 
         public async Task AddAsync(AddBookingDto dto, string UserId)
@@ -65,6 +68,15 @@ namespace Baytak.Application.Services
             };
 
             await _repo.AddAsync(Booking);
+            await _notificationService.CreateAsync(property.AgentId,
+                                       new AddNotificationDto
+                                       {
+                                           Title = "New Booking",
+                                           Content = "You have a new booking request",
+                                           type = NotificationType.BookingCreated,
+                                           refId = Booking.Id
+                                       });
+
 
         }
 
@@ -96,6 +108,16 @@ namespace Baytak.Application.Services
 
             await _repo.UpdateRangeAsync(otherBookings);
 
+            await _notificationService.CreateAsync(
+                    booking.UserId,
+                    new AddNotificationDto
+                    {
+                        Title = "Booking Approved",
+                        Content = "Your booking has been approved",
+                        type = NotificationType.BookingApproved,
+                        refId = booking.Id
+                    });
+
         }
 
         public async Task DeleteAsync(Guid Id,string UserId)
@@ -122,6 +144,8 @@ namespace Baytak.Application.Services
             {
                 Id = b.Id,
                 BookingDate = b.BookingDate,
+                StartTime=b.StartTime,
+                EndTime=b.EndTime,
                 Status = b.Status,
                 CreatedAt = b.CreatedAt,
                 PropertyTitle = b.Property.Title,
@@ -158,6 +182,16 @@ namespace Baytak.Application.Services
             booking.Status = BookingStatus.Rejected;
 
             await _repo.UpdateAsync(booking);
+
+            await _notificationService.CreateAsync(
+                    booking.UserId,
+                    new AddNotificationDto
+                    {
+                        Title = "Booking Rejected",
+                        Content = "Your booking has been rejected",
+                        type = NotificationType.BookingRejected,
+                        refId = booking.Id
+                    });
         }
     }
 }
