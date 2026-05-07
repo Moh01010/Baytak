@@ -10,7 +10,7 @@ using Baytak.Domain.Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
-namespace Baytak.Infrastructure.Services
+namespace Baytak.Application.Services
 {
     public class AuthService : IAuthService
     {
@@ -27,6 +27,27 @@ namespace Baytak.Infrastructure.Services
 
         public async Task<AuthResponseDto> RegisterAsync(RegisterDto dto)
         {
+            var existingUser = await _userManager.FindByEmailAsync(dto.Email);
+
+            if (existingUser != null)
+            {
+                if (!existingUser.EmailConfirmed)
+                {
+
+                    var resendOtp = await _userManager.GenerateTwoFactorTokenAsync(existingUser, "Email");
+
+                    await _emailService.SendEmailAsync(
+                        existingUser.Email,
+                        "Confirm Your Email",
+                        $"Your OTP code is: {resendOtp}"
+                    );
+
+                    throw new Exception("Account exists but not confirmed. OTP resent.");
+                }
+
+                throw new Exception("User already exists");
+            }
+
             var user=new ApplicationUser
             {
                 FullName=dto.FullName,
@@ -41,14 +62,12 @@ namespace Baytak.Infrastructure.Services
                 throw new Exception($"User registration failed: {errors}");
             }
 
-            //var emailToken = await _userManager.GenerateEmailConfirmationTokenAsync(user);
-            //var link = $"https://localhost:7194/api/auth/confirm-email?userId={user.Id}&token={Uri.EscapeDataString(emailToken)}";
-            //await _emailService.SendEmailAsync(user.Email, "Confirm Email", $"Please confirm your account by <a href='{link}'>clicking here</a>.");
-
+            
             var otp = await _userManager.GenerateTwoFactorTokenAsync(user, "Email");
             await _emailService.SendEmailAsync(user.Email, "Confirm Your Email", $"Your OTP code is: {otp}");
 
-            //var jwtToken = GenerateToken(user);
+            user.LastOtpSentAt = DateTime.UtcNow;
+            await _userManager.UpdateAsync(user);
 
             return new AuthResponseDto
             {
@@ -68,7 +87,7 @@ namespace Baytak.Infrastructure.Services
             }
 
             if (!user.EmailConfirmed)
-                throw new Exception("Please confirm your email");
+                throw new Exception("Email not confirmed. Please check your OTP or request a new one.");
 
             var token= GenerateToken(user);
             return new AuthResponseDto
@@ -156,6 +175,32 @@ namespace Baytak.Infrastructure.Services
                 throw new Exception(errors);
             }
             await _userManager.UpdateSecurityStampAsync(user);
+        }
+        public async Task ResendOtpAsync(ResendOtpDto dto)
+        {
+            var user = await _userManager.FindByEmailAsync(dto.Email);
+
+            if (user == null)
+                throw new Exception("User not found");
+
+            if (user.EmailConfirmed)
+                throw new Exception("User already confirmed");
+
+            if (user.LastOtpSentAt.HasValue && (DateTime.UtcNow - user.LastOtpSentAt.Value).TotalSeconds < 30)
+            {
+                throw new Exception("Please wait before requesting another OTP");
+            }
+
+            // Generate new OTP
+            var otp = await _userManager.GenerateTwoFactorTokenAsync(user, "Email");
+
+            await _emailService.SendEmailAsync(
+                user.Email,
+                "Confirm Your Email",
+                $"Your OTP code is: {otp}"
+            );
+            user.LastOtpSentAt = DateTime.UtcNow;
+            await _userManager.UpdateAsync(user);
         }
     }
 }

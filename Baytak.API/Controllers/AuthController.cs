@@ -69,7 +69,7 @@ namespace Baytak.API.Controllers
             if (string.IsNullOrEmpty(email)) return BadRequest("Email is required");
 
             await _authService.ForgotPassword(email);
-            return Ok("If your email exists in our system, you will receive a reset link.");
+            return Ok("If your email exists in our system, you will receive an OTP code.");
         }
 
         [HttpPost("reset-password")]
@@ -83,6 +83,19 @@ namespace Baytak.API.Controllers
             catch (Exception ex)
             {
                 return BadRequest(new { message = ex.Message });
+            }
+        }
+        [HttpPost("resend-otp")]
+        public async Task<IActionResult> ResendOtp([FromBody] ResendOtpDto dto)
+        {
+            try
+            {
+                await _authService.ResendOtpAsync(dto);
+                return Ok("OTP sent again");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
             }
         }
     }

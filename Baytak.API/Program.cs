@@ -54,6 +54,8 @@ builder.Services.AddScoped<IChatService, ChatService>();
 builder.Services.AddScoped<IChatNotifier, SignalRChatNotifier>();
 builder.Services.AddScoped<IBookingRepository, BookingRepository>();
 builder.Services.AddScoped<IBookingService, BookingService>();
+builder.Services.AddScoped<INotificationRepository, NotificationRepository>();
+builder.Services.AddScoped<INotificationService, NotificationService>();
 ///////
 
 builder.Services.AddSwaggerGen(c =>
@@ -143,6 +145,7 @@ app.MapGet("/", context =>
     context.Response.Redirect("/swagger");
     return Task.CompletedTask;
 });
+app.UseStaticFiles();
 
 app.UseHttpsRedirection();
 
