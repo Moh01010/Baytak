@@ -1,4 +1,4 @@
-🏠 Baytak - Real Estate Platform API
+# 🏠 Baytak - Real Estate Platform API
 
 Baytak is a modern Real Estate Backend API built with **ASP.NET Core Web API** using **Clean Architecture** principles.
 
@@ -6,9 +6,9 @@ The platform allows users to browse properties, communicate with agents in real-
 
 ---
 
-🚀 Features
+# 🚀 Features
 
-🔐 Authentication & Authorization
+## 🔐 Authentication & Authorization
 
 * User Registration
 * JWT Authentication
@@ -18,9 +18,9 @@ The platform allows users to browse properties, communicate with agents in real-
 * Reset Password
 * Protected Endpoints
 
+---
 
-
- 🏘️ Properties
+## 🏘️ Properties
 
 * Create Property
 * Update Property
@@ -31,26 +31,26 @@ The platform allows users to browse properties, communicate with agents in real-
 * Upload Main Image
 * Multiple Property Images
 
+---
 
-
-🔎 Search
+## 🔎 Search
 
 * Search by City
 * Search by Price
 * Search by Rooms
 * Search by Property Type
 
+---
 
-
-❤️ Favorites
+## ❤️ Favorites
 
 * Add Property to Favorites
 * Remove from Favorites
 * Get User Favorites
 
+---
 
-
-💬 Real-Time Chat
+## 💬 Real-Time Chat
 
 * Start Conversation
 * Send Messages
@@ -58,9 +58,9 @@ The platform allows users to browse properties, communicate with agents in real-
 * Real-Time Messaging using SignalR
 * Seen Messages
 
+---
 
-
-📅 Booking System
+## 📅 Booking System
 
 * Create Booking Request
 * Booking Time Slots
@@ -71,18 +71,18 @@ The platform allows users to browse properties, communicate with agents in real-
 * Prevent Double Booking
 * Max Booking Duration Validation
 
+---
 
-
-🔔 Notifications
+## 🔔 Notifications
 
 * Message Notifications
 * Booking Notifications
 * Read Notifications
 * Notification History
 
+---
 
-
-🧱 Architecture
+# 🧱 Architecture
 
 The project follows **Clean Architecture**:
 
@@ -93,9 +93,9 @@ Baytak.Domain
 Baytak.Infrastructure
 ```
 
-Layers
+## Layers
 
-API Layer
+### API Layer
 
 Handles:
 
@@ -104,7 +104,7 @@ Handles:
 * Authentication Middleware
 * SignalR Hubs
 
- Application Layer
+### Application Layer
 
 Handles:
 
@@ -113,7 +113,7 @@ Handles:
 * Interfaces
 * Services
 
- Domain Layer
+### Domain Layer
 
 Handles:
 
@@ -121,7 +121,7 @@ Handles:
 * Enums
 * Core Business Rules
 
- Infrastructure Layer
+### Infrastructure Layer
 
 Handles:
 
@@ -131,9 +131,9 @@ Handles:
 * File Uploads
 * SignalR Notifications
 
+---
 
-
- 🛠️ Technologies Used
+# 🛠️ Technologies Used
 
 * ASP.NET Core Web API
 * Entity Framework Core
@@ -146,21 +146,21 @@ Handles:
 * LINQ
 * Dependency Injection
 
+---
 
-
- 📡 SignalR
+# 📡 SignalR
 
 The application supports real-time messaging using SignalR.
 
- Features:
+### Features:
 
 * Join Conversation Groups
 * Receive Messages Instantly
 * Real-Time Chat Experience
 
+---
 
-
- 📷 Image Upload
+# 📷 Image Upload
 
 Images are stored inside:
 
@@ -174,9 +174,9 @@ And accessed through:
 /images/{imageName}
 ```
 
+---
 
-
-🔑 Authentication Flow
+# 🔑 Authentication Flow
 
 ```plaintext
 Register
@@ -190,9 +190,9 @@ Login
 Receive JWT Token
 ```
 
+---
 
-
-📅 Booking Flow
+# 📅 Booking Flow
 
 ```plaintext
 User creates booking
@@ -204,11 +204,11 @@ Approve / Reject
 Other conflicting bookings rejected automatically
 ```
 
+---
 
+# 📂 API Modules
 
- 📂 API Modules
-
- Auth
+## Auth
 
 * Register
 * Login
@@ -217,40 +217,40 @@ Other conflicting bookings rejected automatically
 * Reset Password
 * Resend OTP
 
-Property
+## Property
 
 * CRUD Operations
 * Mark as Sold
 
- Booking
+## Booking
 
 * Create Booking
 * Approve / Reject / Cancel
 * Agent Bookings
 
- Chat
+## Chat
 
 * Conversations
 * Messages
 * Seen Messages
 * SignalR Hub
 
- Notification
+## Notification
 
 * Get Notifications
 * Mark as Read
 
- Favorites
+## Favorites
 
 * Add / Remove Favorites
 
- Search
+## Search
 
 * Property Search & Filtering
 
+---
 
-
-🔒 Security
+# 🔒 Security
 
 * JWT Protected APIs
 * Authorization Policies
@@ -258,39 +258,39 @@ Property
 * Booking Ownership Validation
 * Agent Ownership Validation
 
+---
 
+# 📬 Example API Endpoints
 
-📬 Example API Endpoints
-
- Login
+## Login
 
 ```http
 POST /api/Auth/login
 ```
 
- Create Property
+## Create Property
 
 ```http
 POST /api/Property
 ```
 
- Send Message
+## Send Message
 
 ```http
 POST /api/Messages
 ```
 
-Create Booking
+## Create Booking
 
 ```http
 POST /api/Booking
 ```
 
+---
 
+# ⚙️ Running The Project
 
- ⚙️ Running The Project
-
- 1. Clone Repository
+## 1. Clone Repository
 
 ```bash
 git clone <repo-url>
@@ -298,7 +298,7 @@ git clone <repo-url>
 
 ---
 
- 2. Update Connection String
+## 2. Update Connection String
 
 Inside:
 
@@ -306,25 +306,25 @@ Inside:
 appsettings.json
 ```
 
+---
 
-
- 3. Apply Migrations
+## 3. Apply Migrations
 
 ```bash
 Update-Database
 ```
 
+---
 
-
- 4. Run Project
+## 4. Run Project
 
 ```bash
 dotnet run
 ```
 
+---
 
-
-📘 Swagger
+# 📘 Swagger
 
 Swagger UI is available at:
 
@@ -332,9 +332,9 @@ Swagger UI is available at:
 /swagger
 ```
 
+---
 
-
-🌍 Deployment
+# 🌍 Deployment
 
 The project can be deployed on:
 
@@ -343,9 +343,9 @@ The project can be deployed on:
 * Azure
 * Docker
 
+---
 
-
-📈 Future Improvements
+# 📈 Future Improvements
 
 * Real-Time Notifications
 * Role-Based Authorization
@@ -354,9 +354,9 @@ The project can be deployed on:
 * AI Property Recommendations
 * Admin Dashboard
 
+---
 
-
-👨‍💻 Author
+# 👨‍💻 Author
 
 Developed by:
 
@@ -364,9 +364,9 @@ Developed by:
 
 Backend Developer | ASP.NET Core Developer
 
+---
 
-
-⭐ Project Highlights
+# ⭐ Project Highlights
 
 ✅ Clean Architecture
 
